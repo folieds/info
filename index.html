@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hmaza info</title>
+    <title>Hamza info</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
@@ -26,7 +26,7 @@
             <li><a href="https://t.me/Outlawbots"><i class="fab fa-telegram-plane"></i> Outlawbots</a></li>
             <li><a href="https://t.me/illegalCollage"><i class="fab fa-telegram-plane"></i>Memes</a></li>
             <li><a href="https://t.me/faony"><i class="fab fa-telegram-plane"></i>Direct Chats</a></li>
-            <li><a href="https://Instagram.com/fqeo"><i class="fab fa-instagram-plane"></i>Instagram2</a></li>
+            <li><a href="https://Instagram.com/fqeo"><i class="fab fa-instagram"></i>Instagram2</a></li>
             <li><a href="https://twitter.com/PanWala_"><i class="fab fa-twitter"></i> 𝕏</a></li>
         </ul>
     </section>
@@ -37,14 +37,7 @@
     </footer>
 
     <script>
-        fetch('https://api.waifu.pics/sfw/waifu')
-            .then(response => response.json())
-            .then(data => {
-                const animeImg = document.getElementById('animeCharacter');
-                animeImg.src = data.url; // Set the image source dynamically
-            })
-            .catch(error => console.error('Error fetching anime character:', error));
-
+        // Animation for Profile Image
         anime({
             targets: '.profile-img',
             scale: [0, 1],
@@ -53,8 +46,9 @@
             duration: 1500
         });
 
+        // Animation for Anime Background (if added)
         anime({
-            targets: '.anime-character',
+            targets: '.anime-character-background',
             translateY: [-100, 0],
             opacity: [0, 1],
             easing: 'easeOutBack',
