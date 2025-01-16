@@ -71,11 +71,24 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Links Section */
+/* Links Section (Updated) */
+.links {
+    text-align: center;
+    margin-top: 40px; /* Pushes it down */
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s 0.5s forwards;
+}
+
+.links h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6347;  /* Colorful text */
+}
+
 .links ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
 }
 
 .links li {
@@ -83,11 +96,15 @@ h1 {
     opacity: 0;
     transform: translateX(-30px);
     animation: slideIn 0.8s ease forwards;
+    background: linear-gradient(45deg, #ff6f61, #f8cdda, #ff8e72); /* Colorful background */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 a {
     text-decoration: none;
-    color: #eaeaea;
+    color: #ffffff;  /* White text for contrast */
     font-size: 18px;
     display: flex;
     align-items: center;
