@@ -9,8 +9,10 @@
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
 </head>
 <body>
+    <!-- Background Animation -->
+    <div id="particle-container"></div>
+
     <header>
-        <!-- Anime Character Image (Dynamic) -->
         <div class="anime-character">
             <img src="" alt="Anime Character" class="anime-img" id="animeCharacter">
         </div>
@@ -40,7 +42,6 @@
     </footer>
 
     <script>
-        // Fetch random anime character image from an API
         fetch('https://api.waifu.pics/sfw/waifu')
             .then(response => response.json())
             .then(data => {
@@ -49,7 +50,6 @@
             })
             .catch(error => console.error('Error fetching anime character:', error));
 
-        // Simple animation for the profile image
         anime({
             targets: '.profile-img',
             scale: [0, 1],
@@ -58,7 +58,6 @@
             duration: 1500
         });
 
-        // Animating the anime character
         anime({
             targets: '.anime-character',
             translateY: [-100, 0],
