@@ -12,8 +12,9 @@ body {
     color: #eaeaea;  /* Light text color */
     padding: 20px;
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh; /* Ensures that the body takes at least the full height of the viewport */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-y: auto; /* Allow vertical scrolling */
 }
 
 /* Full-screen Anime Background - Only in the Green Area */
@@ -71,7 +72,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Links Section (Updated) */
+/* Links Section */
 .links {
     text-align: center;
     margin-top: 40px; /* Pushes it down */
