@@ -1,0 +1,544 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta name=&quot;google-site-verification&quot; content=&quot;zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc&quot; /&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#000&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Orewa Nj | Explore my portfolio, a testament to my journey in web development. From dynamic WordPress sites to seamlessly managed servers, each project showcases my dedication to innovation, precision, and delivering exceptional online experiences.&quot;&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;Orewa Nj, Orewa Nj portfolio, AboutNj, Orewa Nj github, AboutNj me, AboutNj web developer, Orewa Nj wordpress developer, Orewa Nj server manager, Orewa Nj frontend developer, frontend developer, Orewa Nj wordpress full stack developer, Orewa Nj dev&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;Orewa Nj&quot;&gt;
+    &lt;meta property=&quot;og:image&quot; content=&quot;src/webp/orewanj.webp&quot;&gt;
+    &lt;title&gt;
+        Orewa Nj | Portfolio    &lt;/title&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;src/png/favicon.png&quot;&gt;
+    &lt;!-- aos cdn --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/aos%403.0.0-beta.6/dist/aos.css&quot; /&gt;
+    &lt;!-- stylesheet --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+    &lt;!-- fontawesome --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.15.4/css/all.css&quot;
+        integrity=&quot;sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm&quot; crossorigin=&quot;anonymous&quot; /&gt;
+
+    &lt;link rel=&quot;stylesheet&quot;
+        href=&quot;https://fonts.googleapis.com/css2?family=Passions+Conflict&amp;amp;family=Orbitron&amp;amp;family=Fira+Code&amp;amp;family=Six+Caps&quot;&gt;
+    &lt;!-- google icons --&gt;
+    &lt;link rel=&quot;stylesheet&quot;
+        href=&quot;https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&quot; /&gt;
+
+&lt;/head&gt;
+
+&lt;body class=&quot;body&quot;&gt;
+    &lt;div id=&quot;preloader&quot;&gt;&lt;/div&gt;
+    &lt;noscript&gt;Allow Javascript&lt;/noscript&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;navbar&quot; id=&quot;navbar&quot;&gt;
+            &lt;div class=&quot;hey&quot;&gt;Hey!&lt;/div&gt;
+            &lt;div class=&quot;logo&quot; tabindex=&quot;0&quot; aria-label=&quot;Orewa Nj logo&quot;&gt;
+
+                &lt;div class=&quot;logo-top&quot;&gt;
+                    &lt;img src=&quot;src/png/logo-headwithouteyes.png&quot; alt=&quot;animation-head&quot;&gt;
+                    &lt;div class=&quot;face&quot;&gt;
+                        &lt;div class=&quot;eye&quot;&gt;
+                            &lt;div class=&quot;pupil&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;eye&quot;&gt;
+                            &lt;div class=&quot;pupil&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;logo-bottom&quot;&gt;&lt;img src=&quot;src/png/logo-body.png&quot; alt=&quot;animation-body&quot;&gt;&lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;div class=&quot;navbar-tabs&quot; id=&quot;navbar-tabs&quot;&gt;
+                &lt;ul class=&quot;navbar-tabs-ul&quot;&gt;
+                    &lt;a href=&quot;#home&quot; tabindex=&quot;0&quot; aria-label=&quot;Home menu button&quot;&gt;
+                        &lt;li class=&quot;home activeThistab&quot; class=&quot;navbar-tabs-li &quot; data-aos=&quot;fade-down&quot;
+                            data-aos-delay=&quot;100&quot;&gt;&amp;#60;/Home&amp;#62;&lt;/li&gt;
+                    &lt;/a&gt;
+                    &lt;a href=&quot;#about&quot; aria-label=&quot;about menu button&quot;&gt;
+                        &lt;li class=&quot;about&quot; class=&quot;navbar-tabs-li&quot; data-aos=&quot;fade-down&quot; data-aos-delay=&quot;300&quot;&gt;
+                            &amp;#60;/AboutMe&amp;#62;&lt;/li&gt;
+                    &lt;/a&gt;
+                    &lt;a href=&quot;#skills&quot; aria-label=&quot;skills menu button&quot;&gt;
+                        &lt;li class=&quot;skills&quot; class=&quot;navbar-tabs-li&quot; data-aos=&quot;fade-down&quot; data-aos-delay=&quot;500&quot;&gt;
+                            &amp;#60;/Skills&amp;#62;&lt;/li&gt;
+                    &lt;/a&gt;
+                    &lt;a href=&quot;#projects&quot; aria-label=&quot;projects menu button&quot;&gt;
+                        &lt;li class=&quot;projects&quot; class=&quot;navbar-tabs-li&quot; data-aos=&quot;fade-down&quot; data-aos-delay=&quot;700&quot;&gt;
+                            &amp;#60;/Services&amp;#62;&lt;/li&gt;
+                    &lt;/a&gt;
+
+                &lt;/ul&gt;
+
+
+            &lt;/div&gt;&lt;!-- navbar tabs ends --&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;!-- header ends here --&gt;
+
+    &lt;main&gt;
+
+        &lt;!-- hamburger --&gt;
+        &lt;div class=&quot;hamburger&quot; id=&quot;hamburger&quot; data-aos=&quot;fade&quot;&gt;
+            &lt;div class=&quot;hamburgerbase&quot;&gt;
+                &lt;button id=&quot;hamburger-button&quot; onclick=&quot;hamburgerMenu()&quot; tabindex=&quot;0&quot; aria-label=&quot;Menu Button&quot;&gt;
+                    &lt;span class=&quot;burger-bar&quot; id=&quot;burger-bar1&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;burger-bar&quot; id=&quot;burger-bar2&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;burger-bar&quot; id=&quot;burger-bar3&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- hamburger --&gt;
+        &lt;div class=&quot;mobiletogglemenu&quot; id=&quot;mobiletogglemenu&quot;&gt;
+            &lt;div class=&quot;emptyarea&quot; id=&quot;emptyarea&quot;&gt;&lt;/div&gt;
+            &lt;ul class=&quot;mobile-navbar-tabs-ul&quot; id=&quot;mobile-ul&quot;&gt;
+                &lt;a href=&quot;#home&quot; tabindex=&quot;0&quot; aria-label=&quot;Home menu button&quot;&gt;
+                    &lt;li id=&quot;home-mobile-tab&quot; class=&quot;mobile-navbar-tabs-li home activeThismobiletab&quot;
+                        onclick=&quot;hidemenubyli()&quot;&gt;&amp;#60;/Home&amp;#62;&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&quot;#about&quot; tabindex=&quot;0&quot; aria-label=&quot;about menu button&quot;&gt;
+                    &lt;li id=&quot;aboutme-mobile-tab&quot; class=&quot;mobile-navbar-tabs-li about&quot; onclick=&quot;hidemenubyli()&quot;&gt;
+                        &amp;#60;/AboutMe&amp;#62;&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&quot;#skills&quot; tabindex=&quot;0&quot; aria-label=&quot;skills menu button&quot;&gt;
+                    &lt;li id=&quot;skills-mobile-tab&quot; class=&quot;mobile-navbar-tabs-li skills&quot; onclick=&quot;hidemenubyli()&quot;&gt;
+                        &amp;#60;/Skills&amp;#62;&lt;/li&gt;
+                &lt;/a&gt;
+                &lt;a href=&quot;#projects&quot; tabindex=&quot;0&quot; aria-label=&quot;projects menu button&quot;&gt;
+                    &lt;li id=&quot;projects-mobile-tab&quot; class=&quot;mobile-navbar-tabs-li projects&quot; onclick=&quot;hidemenubyli()&quot;&gt;
+                        &amp;#60;/Projects&amp;#62;&lt;/li&gt;
+                &lt;/a&gt;
+
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!-- mobile toggle menu ends --&gt;
+        &lt;div class=&quot;fakenavbar&quot;&gt;&lt;/div&gt;
+        &lt;section class=&quot;landing-page-container&quot; id=&quot;home&quot;&gt;
+
+
+
+
+            &lt;div class=&quot;text-content&quot;&gt;
+            &lt;article id=&quot;hello-friend&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;0&quot;&gt;
+                    &lt;p class=&quot;jello&quot;&gt;Testing&lt;/p&gt;
+                &lt;/article&gt;
+                &lt;article id=&quot;hello-friend&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;0&quot;&gt;
+                    &lt;p class=&quot;jello&quot;&gt;H&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;y&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;(&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;)&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;;&lt;/p&gt;&amp;nbsp;&lt;p class=&quot;jello&quot;&gt;I&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;'&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;m&lt;/p&gt;
+                &lt;/article&gt;
+                &lt;article id=&quot;name&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;200&quot;&gt;
+                    &lt;p class=&quot;jello&quot;&gt;O&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;r&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;w&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;a&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;-&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;N&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;j&lt;/p&gt;
+                    &lt;p class=&quot;jello&quot;&gt;.&lt;/p&gt;
+                &lt;/article&gt;
+
+
+                &lt;article id=&quot;work&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;400&quot;&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;I&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;d&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;s&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;i&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;g&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;n&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;&amp;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;M&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;a&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;k&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;W&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;o&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;r&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;d&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;p&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;r&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;s&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;s&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;p class=&quot;jello&quot;&gt;W&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;b&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;s&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;i&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;t&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;e&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;s&lt;/p&gt;
+                        &lt;p class=&quot;jello&quot;&gt;.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/article&gt;
+                &lt;p id=&quot;info-para&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;600&quot;&gt;Experienced WordPress Developer transforming
+                    ideas into visually stunning and functionally seamless websites.&lt;/p&gt;
+                &lt;div class=&quot;contact-btn-div&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;800&quot;&gt;
+
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot;
+                        tabindex=&quot;-1&quot;&gt;
+                        &lt;button class=&quot;letsTalkBtn&quot;&gt;
+                            &lt;p class=&quot;letsTalkBtn-text&quot;&gt;Let's Talk!&lt;/p&gt;
+                            &lt;span class=&quot;letsTalkBtn-BG&quot;&gt;&lt;/span&gt;
+                        &lt;/button&gt;&lt;/a&gt;
+                    &lt;!-- &lt;div class=&quot;setting-container&quot; id=&quot;setting-container&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;switchforsetting&quot; onclick=&quot;settingtoggle()&quot;&gt;
+
+                        &lt;label for=&quot;switchforsetting&quot; id=&quot;labelforsetting&quot;tabindex=&quot;0&quot; aria-label=&quot;settings for sound and appearance&quot;&gt;&lt;/label&gt; --&gt;
+
+                    &lt;!-- &lt;div class=&quot;visualmodetogglebuttoncontainer&quot; id=&quot;visualmodetogglebuttoncontainer&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;switchforvisualmode&quot;
+                        onclick=&quot;visualmode()&quot;&gt;
+                        &lt;label for=&quot;switchforvisualmode&quot; id=&quot;labelforvisualmode&quot; tabindex=&quot;0&quot; aria-label=&quot;switch appearance&quot;&gt;&lt;/label&gt;
+                      &lt;/div&gt; --&gt;
+
+                    &lt;!-- &lt;div class=&quot;soundtogglebuttoncontainer&quot; id=&quot;soundtogglebuttoncontainer&quot;&gt;
+                        &lt;input type=&quot;checkbox&quot; id=&quot;switchforsound&quot; onclick=&quot;playpause()&quot;&gt;
+                        &lt;label for=&quot;switchforsound&quot; id=&quot;labelforsound&quot;tabindex=&quot;0&quot; aria-label=&quot;switch sound&quot;&gt;&lt;/label&gt;
+                      &lt;/div&gt;  --&gt;
+                    &lt;!-- &lt;/div&gt; --&gt;
+                    &lt;!-- setting div ends --&gt;
+                &lt;/div&gt;&lt;!-- contact-btn-div --&gt;
+
+            &lt;/div&gt;
+            &lt;!-- Resume button --&gt;
+            &lt;button class=&quot;resume-btn&quot; id=&quot;resume-btn&quot; onclick=&quot;openURL()&quot;&gt;
+
+
+                &lt;div class=&quot;sign&quot;&gt;&lt;svg viewBox=&quot;0 0 89.28 122.88&quot; style=&quot;enable-background:new 0 0 89.28 122.88&quot;
+                        xml:space=&quot;preserve&quot;&gt;
+                        &lt;style type=&quot;text/css&quot;&gt;
+                            .st0 {
+                                fill-rule: evenodd;
+                                clip-rule: evenodd;
+                            }
+                        &lt;/style&gt;
+                        &lt;g&gt;
+                            &lt;path class=&quot;st0&quot;
+                                d=&quot;M2.86,82.1h9.65c3.1-4.81,9.75-7.32,15.7-9.57c1.47-0.56,2.9-1.09,4.2-1.64c0.69-0.91,1.25-1.88,1.69-2.93 c0.38-0.9,0.66-1.85,0.85-2.85c-1.06-0.63-2.08-1.38-3.05-2.24c-3.95-3.5-6.71-6.36-8.49-9.67c-1.81-3.36-2.56-7.08-2.46-12.26 l0.28-11.86c0-0.17,0.03-0.32,0.08-0.47l-3.49-1.2C17.32,16.04,23.72,9.22,31.63,5.79c2.89-1.25-1.95-7.55,4.69-5.32 c8.87,2.97,28.53,6.84,33.19,12.2c3.79,4.36,3.94,6.75,3.85,12.49c-0.03,1.86-0.32,3.5-1.21,4.1c-0.41,0.27-0.9,0.37-1.46,0.31 v12.46c0,7.1-2.54,13.03-6.44,17.43c-2.2,2.48-4.82,4.46-7.67,5.89c0.17,0.91,0.41,1.79,0.71,2.62c0.35,0.97,0.8,1.9,1.33,2.78 c1.14,0.51,2.27,0.97,3.4,1.43c5.56,2.28,11.21,4.59,14.13,9.91h10.1c1.86,0,3.37,1.85,2.94,4.11L83,118.77 c-0.42,2.22-1.85,4.11-4.11,4.11H11.46c-2.26,0-3.62-1.9-4.11-4.11L0.1,86.21C-0.4,83.95,1.06,82.1,2.86,82.1L2.86,82.1z M44.8,97.44c2.72,0,4.93,2.21,4.93,4.93s-2.21,4.93-4.93,4.93c-2.72,0-4.93-2.21-4.93-4.93S42.08,97.44,44.8,97.44L44.8,97.44z M40.16,67.29c-0.89-0.23-1.76-0.53-2.61-0.88c-0.21,0.91-0.5,1.79-0.85,2.64c-0.45,1.06-1.01,2.08-1.69,3.04 c0.75,0.83,1.59,1.54,2.51,2.13c2.48,1.6,5.46,2.35,8.4,2.28c2.92-0.07,5.77-0.96,8.01-2.65c0.77-0.59,1.47-1.27,2.07-2.04 c-0.52-0.91-0.97-1.87-1.33-2.88c-0.28-0.77-0.51-1.57-0.69-2.39c-2.86,1.02-5.75,1.53-8.58,1.49 C43.61,67.99,41.86,67.75,40.16,67.29L40.16,67.29z M37.25,63.15c0.92,0.49,1.87,0.88,2.83,1.2c1.8,0.56,3.69,0.84,5.58,0.84v0.01 c3,0,6.04-0.68,8.88-1.97c2.84-1.29,5.46-3.19,7.61-5.61c3.47-3.91,5.72-9.2,5.72-15.57v-9.86l0,0c-0.03-0.94-0.16-1.8-0.4-2.58 c-0.23-0.75-0.57-1.42-1.03-1.99c-1.72-2.15-3.35-2.13-5.68-2.12c-0.21,0-0.43,0-0.72,0c-9.21-0.03-15.24-0.33-20.14-0.99 c-4.52-0.61-8.06-1.52-12.18-2.82c-0.39,0.87-0.84,1.71-1.37,2.54c-0.67,1.05-1.46,2.05-2.35,3l-0.27,13.78 c-0.09,4.66,0.57,7.97,2.13,10.89c1.59,2.96,4.17,5.61,7.87,8.9c0.98,0.87,2.03,1.6,3.12,2.21C37.01,63.02,37.14,63.07,37.25,63.15 L37.25,63.15z M57.14,37.01c1.67,0,3.03,1.36,3.03,3.03c0,1.67-1.36,3.03-3.03,3.03c-1.67,0-3.03-1.36-3.03-3.03 C54.11,38.37,55.46,37.01,57.14,37.01L57.14,37.01z M34.28,37.01c1.67,0,3.03,1.36,3.03,3.03c0,1.67-1.36,3.03-3.03,3.03 c-1.67,0-3.03-1.36-3.03-3.03C31.25,38.37,32.61,37.01,34.28,37.01L34.28,37.01z M39.51,54.59c-0.65-0.42-0.83-1.29-0.41-1.94 c0.42-0.65,1.29-0.83,1.94-0.41c1.6,1.04,3.13,1.6,4.59,1.62c1.41,0.02,2.81-0.48,4.19-1.55c0.61-0.48,1.5-0.37,1.97,0.25 c0.48,0.61,0.37,1.49-0.25,1.97c-1.9,1.48-3.89,2.16-5.95,2.14C43.58,56.63,41.55,55.91,39.51,54.59L39.51,54.59z M16.08,82.1 h56.73c-2.7-3.57-7.31-5.46-11.85-7.32c-0.95-0.39-1.89-0.78-2.8-1.17c-0.76,1.03-1.68,1.92-2.72,2.68 c-2.51,1.82-5.75,2.87-9.1,3.03c-3.33,0.16-6.78-0.55-9.72-2.25c-1.47-0.84-2.81-1.93-3.94-3.26c-1.11,0.45-2.28,0.89-3.48,1.34 C24.39,76.97,19.1,78.97,16.08,82.1L16.08,82.1z&quot; /&gt;
+                        &lt;/g&gt;
+                    &lt;/svg&gt;&lt;/div&gt;
+
+
+
+
+                &lt;div class=&quot;text&quot;&gt;Hire Me ✅&lt;/div&gt;
+            &lt;/button&gt;
+        &lt;/section&gt;
+        &lt;!-- landing page ends here --&gt;
+        &lt;section class=&quot;about-section-container&quot; id=&quot;about&quot; data-aos=&quot;fade-up&quot;&gt;
+            &lt;div class=&quot;about-section&quot;&gt;
+                &lt;div class=&quot;about-heading&quot;&gt;
+                    &lt;article class=&quot;about-heading-article&quot; tabindex=&quot;0&quot; aria-label=&quot;About me heading&quot;&gt;&amp;#60;/AboutMe&amp;#62;
+                    &lt;/article&gt;
+                    &lt;p class=&quot;aboutHeadingP&quot;&gt;&lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;info-dp-section&quot;&gt;
+                    &lt;div class=&quot;about-info&quot;&gt;
+                        &lt;p tabindex=&quot;0&quot;&gt;Hi! i'm a Web Developer and Digital Marketer, I am a skilled
+                            and passionate web developer with expertise in full-stack WordPress development. With a
+                            strong foundation in both front-end and back-end technologies.&lt;/p&gt; &lt;br&gt;
+                        &lt;p tabindex=&quot;0&quot;&gt;As a full-stack WordPress developer, I am adept at leveraging the power of the
+                            WordPress platform to build robust and user-friendly websites. &lt;/p&gt; &lt;br&gt;
+                        &lt;p tabindex=&quot;0&quot;&gt; With a keen eye for detail and a problem-solving mindset, I thrive in dynamic
+                            environments, adapting quickly to new challenges. I am enthusiastic about contributing my
+                            skills to create innovative and impactful web solutions.&lt;/p&gt;
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;dp&quot; data-aos=&quot;fade-up&quot;&gt;&lt;img src=&quot;https://miro.medium.com/v2/resize:fit:736/1*YqfVlyCe06DfcPsR3kpYrw.jpeg&quot; alt=&quot;Orewa Nj&quot;
+                            tabindex=&quot;0&quot; aria-label=&quot;image of OrewaNj&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!-- about section ends  --&gt;
+        &lt;section class=&quot;skills-section-container&quot; id=&quot;skills&quot;&gt;
+            &lt;div class=&quot;skills-section&quot;&gt;
+                &lt;div class=&quot;skills-heading&quot; data-aos=&quot;fade-up&quot;&gt;
+                    &lt;article class=&quot;skills-heading-article&quot; tabindex=&quot;0&quot; aria-label=&quot;skills heading&quot;&gt;&amp;#60;/Skills&amp;#62;
+                    &lt;/article&gt;
+                    &lt;p class=&quot;skillsHeadingP&quot;&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;frontend-dev-section&quot;&gt;
+                    &lt;div class=&quot;frontend-dev-heading&quot; data-aos=&quot;fade-up&quot; tabindex=&quot;0&quot;
+                        aria-label=&quot;As a frontend a developer these are the skills i have&quot;&gt;Frontend Developer&lt;/div&gt;
+                    &lt;div class=&quot;language-speak&quot;&gt;
+                        &lt;article tabindex=&quot;0&quot; aria-label=&quot;languages i speak below&quot;&gt;&gt;_ Languages i speak:&lt;/article&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;languages-section&quot;&gt;
+
+                        &lt;div class=&quot;language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;html&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;HTML&quot;&gt;H T M L&lt;/article&gt;
+                            &lt;p&gt;INTERMEDIATE!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;css&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;C S S&quot;&gt;CSS&lt;/article&gt;
+                            &lt;p&gt;ADVANCED!&lt;/p&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;bootstrap&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;bootstrap&quot;&gt;BOOTSTRAP&lt;/article&gt;
+                            &lt;p&gt;INTERMEDIATE!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;react&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;React J S&quot;&gt;WORDPRESS&lt;/article&gt;
+                            &lt;p&gt;ADVANCED!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;js&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;Javascript&quot;&gt;JAVASCRIPT&lt;/article&gt;
+                            &lt;p&gt;BEGINNER!&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;designing-section frontend-dev-section&quot;&gt;
+
+                    &lt;div class=&quot;designing-heading frontend-dev-heading&quot; data-aos=&quot;fade-up&quot; tabindex=&quot;0&quot;
+                        aria-label=&quot;as a designer these are the skills i have&quot;&gt;Designer&lt;/div&gt;
+                    &lt;div class=&quot;enjoy-designing language-speak&quot; data-aos=&quot;fade-up&quot;&gt;
+                        &lt;article&gt;Things i enjoy Designing:&lt;/article&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;tool-section languages-section&quot;&gt;
+
+                        &lt;div class=&quot;tool-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;ap&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;Adobe Photoshop&quot;&gt;ADOBE PHOTOSHOP&lt;/article&gt;
+                            &lt;p&gt;ADVANCED!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;tool-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;canva&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;canva&quot;&gt;CANVA&lt;/article&gt;
+                            &lt;p&gt;ADVANCED!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;tool-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;ai&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;Adobe illustrator&quot;&gt;WEBFLOW&lt;/article&gt;
+                            &lt;p&gt;BEGINNER!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;tool-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;ai&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;Figma&quot;&gt;FIGMA&lt;/article&gt;
+                            &lt;p&gt;INTERMEDIATE!&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;other-languages frontend-dev-section&quot;&gt;
+                    &lt;div class=&quot;languages-heading frontend-dev-heading&quot; data-aos=&quot;fade-up&quot; tabindex=&quot;0&quot;
+                        aria-label=&quot;as a programmer skills i have&quot;&gt;Programmer&lt;/div&gt;
+                    &lt;div class=&quot;languages-i-know language-speak&quot; data-aos=&quot;fade-up&quot;&gt;
+                        &lt;article&gt;&gt;_ Other Languages i Know:&lt;/article&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;programming-section languages-section&quot;&gt;
+
+                        &lt;div class=&quot;language-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;c&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;C a programming language&quot;&gt;C&lt;/article&gt;
+                            &lt;p&gt;INTERMEDIATE!&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;language-name language-name&quot; data-aos=&quot;fade-up&quot; id=&quot;cpp&quot;&gt;
+                            &lt;article tabindex=&quot;0&quot; aria-label=&quot;C plus plus a programming language&quot;&gt;C++&lt;/article&gt;
+                            &lt;p&gt;BEGINNER!&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!-- skills section ends --&gt;
+        &lt;section class=&quot;projects-section-container&quot; id=&quot;projects&quot;&gt;
+            &lt;div class=&quot;projects-section-div&quot;&gt;
+                &lt;div class=&quot;projects-heading&quot;&gt;
+                    &lt;article class=&quot;projects-heading-article&quot; tabindex=&quot;0&quot; aria-label=&quot;My projects starts from here&quot;&gt;
+                        &amp;#60;/Services&amp;#62;&lt;/article&gt;
+                    &lt;p class=&quot;projectsHeadingP&quot;&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;project-boxes-div&quot;&gt;
+
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot;&gt;
+                        &lt;div class=&quot;project-box project-box1&quot; id=&quot;project-box1&quot;&gt;
+                            &lt;div class=&quot;info-div&quot;&gt;
+                                &lt;img src=&quot;src/favicon/Wordpress%20Favicon.png&quot; alt=&quot;&quot; class=&quot;faviconforProject&quot;&gt;
+                                &lt;article class=&quot;ProjectHeading&quot;&gt;Wordpress Development&lt;/article&gt;
+                                &lt;p class=&quot;ProjectDescription&quot;&gt;From sleek portfolios to robust e-commerce platforms, I
+                                    bring your ideas to life with customized, responsive solutions.&lt;/p&gt;
+                                &lt;button class=&quot;cta&quot;&gt;
+                                    &lt;span&gt;Hire Me&lt;/span&gt;
+                                    &lt;svg viewBox=&quot;0 0 13 10&quot; height=&quot;10px&quot; width=&quot;15px&quot;&gt;
+                                        &lt;path d=&quot;M1,5 L11,5&quot;&gt;&lt;/path&gt;
+                                        &lt;polyline points=&quot;8 1 12 5 8 9&quot;&gt;&lt;/polyline&gt;
+                                    &lt;/svg&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;image-div&quot;&gt;&lt;img src=&quot;src/webp/Wordpress%20Development.webp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+                    &lt;!-- ---------------------- --&gt;
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot;&gt;
+                        &lt;div class=&quot;project-box project-box2&quot; id=&quot;project-box2&quot;&gt;
+                            &lt;div class=&quot;info-div&quot;&gt;
+                                &lt;img src=&quot;src/favicon/Adsense%20Logo%20Favicon.png&quot; alt=&quot;&quot;
+                                    class=&quot;faviconforProjectAquaregia&quot;&gt;
+                                &lt;article class=&quot;ProjectHeading&quot;&gt;Adsense Services&lt;/article&gt;
+                                &lt;p class=&quot;ProjectDescription&quot;&gt;Specialized in securing AdSense approvals for websites.
+                                    Let me navigate the guidelines and optimize your site, ensuring a swift and
+                                    successful entry into the AdSense program.&lt;/p&gt;
+                                &lt;button class=&quot;cta&quot;&gt;
+                                    &lt;span&gt;Hire Me&lt;/span&gt;
+                                    &lt;svg viewBox=&quot;0 0 13 10&quot; height=&quot;10px&quot; width=&quot;15px&quot;&gt;
+                                        &lt;path d=&quot;M1,5 L11,5&quot;&gt;&lt;/path&gt;
+                                        &lt;polyline points=&quot;8 1 12 5 8 9&quot;&gt;&lt;/polyline&gt;
+                                    &lt;/svg&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;image-div&quot;&gt;&lt;img src=&quot;src/webp/Google%20Adsense.webp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                    &lt;!-- ---------------------- --&gt;
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot;&gt;
+                        &lt;div class=&quot;project-box project-box3&quot; id=&quot;project-box3&quot;&gt;
+                            &lt;div class=&quot;info-div&quot;&gt;
+                                &lt;img src=&quot;src/favicon/Cloud%20Server.jpg&quot; alt=&quot;&quot; class=&quot;faviconforProject&quot;&gt;
+                                &lt;article class=&quot;ProjectHeading&quot;&gt;Manage Your Server&lt;/article&gt;
+                                &lt;p class=&quot;ProjectDescription&quot;&gt;Proficient in managing VPS and cloud servers, I ensure
+                                    seamless performance and reliability. Let me handle your server infrastructure,
+                                    guaranteeing optimal functionality and smooth operations.&lt;/p&gt;
+                                &lt;button class=&quot;cta&quot;&gt;
+                                    &lt;span&gt;Hire Me&lt;/span&gt;
+                                    &lt;svg viewBox=&quot;0 0 13 10&quot; height=&quot;10px&quot; width=&quot;15px&quot;&gt;
+                                        &lt;path d=&quot;M1,5 L11,5&quot;&gt;&lt;/path&gt;
+                                        &lt;polyline points=&quot;8 1 12 5 8 9&quot;&gt;&lt;/polyline&gt;
+                                    &lt;/svg&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;image-div&quot;&gt;&lt;img src=&quot;src/webp/Clouds%20Services.webp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                    &lt;!-- ---------------------- --&gt;
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot;&gt;
+                        &lt;div class=&quot;project-box project-box4&quot; id=&quot;project-box4&quot;&gt;
+                            &lt;div class=&quot;info-div&quot;&gt;
+                                &lt;img src=&quot;src/favicon/Facebook%20ads%20campiagn.png&quot; alt=&quot;&quot;
+                                    class=&quot;faviconforProjectAquaregia&quot;&gt;
+                                &lt;article class=&quot;ProjectHeading&quot;&gt;Ads Campaign&lt;/article&gt;
+                                &lt;p class=&quot;ProjectDescription&quot;&gt;Experienced in orchestrating successful advertising
+                                    campaigns across Google Ads, Facebook Ads, and Bing Ads. Let me optimize and manage
+                                    your existing campaigns for maximum reach and effectiveness.&lt;/p&gt;
+                                &lt;button class=&quot;cta&quot;&gt;
+                                    &lt;span&gt;Hire Me&lt;/span&gt;
+                                    &lt;svg viewBox=&quot;0 0 13 10&quot; height=&quot;10px&quot; width=&quot;15px&quot;&gt;
+                                        &lt;path d=&quot;M1,5 L11,5&quot;&gt;&lt;/path&gt;
+                                        &lt;polyline points=&quot;8 1 12 5 8 9&quot;&gt;&lt;/polyline&gt;
+                                    &lt;/svg&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;image-div&quot;&gt;&lt;img src=&quot;src/webp/Facebook%20ads.webp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                    &lt;!-- ---------------------- --&gt;
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot;&gt;
+                        &lt;div class=&quot;project-box project-box5&quot; id=&quot;project-box5&quot;&gt;
+                            &lt;div class=&quot;info-div&quot;&gt;
+                                &lt;img src=&quot;src/favicon/SEO%20Favicon.png&quot; alt=&quot;&quot; class=&quot;faviconforProjectAquaregia&quot;&gt;
+                                &lt;article class=&quot;ProjectHeading&quot;&gt;SEO&lt;/article&gt;
+                                &lt;p class=&quot;ProjectDescription&quot;&gt;Boost your website's visibility on Google searches with my
+                                    expertise in site optimization and SEO enhancement. I specialize in elevating your
+                                    search engine rankings through strategic optimizations.&lt;/p&gt;
+                                &lt;button class=&quot;cta&quot;&gt;
+                                    &lt;span&gt;Hire Me&lt;/span&gt;
+                                    &lt;svg viewBox=&quot;0 0 13 10&quot; height=&quot;10px&quot; width=&quot;15px&quot;&gt;
+                                        &lt;path d=&quot;M1,5 L11,5&quot;&gt;&lt;/path&gt;
+                                        &lt;polyline points=&quot;8 1 12 5 8 9&quot;&gt;&lt;/polyline&gt;
+                                    &lt;/svg&gt;
+                                &lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;image-div&quot;&gt;&lt;img src=&quot;src/webp/SEO%20Services.webp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+
+    &lt;/main&gt;
+    &lt;!-- main ends here --&gt;
+
+    &lt;footer&gt;
+        &lt;button class=&quot;fas&quot; id=&quot;backtotopbutton&quot; onclick=&quot;scrolltoTopfunction()&quot;&gt;
+            &lt;article aria-label=&quot;Back to top&quot;&gt;&amp;#8592;BACK TO TOP&lt;/article&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;footercontainer&quot;&gt;
+            &lt;div class=&quot;two-words&quot;&gt;
+                &lt;article tabindex=&quot;0&quot; aria-label=&quot;Learning, Living, and Leveling Up, my quote&quot;&gt;&quot;Learning, Living, and
+                    Leveling Up.&quot;&lt;/article&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;social-media-container&quot;&gt;
+                &lt;div class=&quot;getintouch-heading&quot;&gt;
+                    &lt;article&gt;GetinTouch();&lt;/article&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;logos&quot;&gt;
+                    &lt;a href=&quot;#&quot; target=&quot;_blank&quot; tabindex=&quot;0&quot; aria-label=&quot;My instagram&quot;&gt;&lt;svg
+                            viewBox=&quot;0 0 448 512&quot; class=&quot;SocialHandle&quot;&gt;
+                            &lt;path
+                                d=&quot;M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z&quot; /&gt;
+                        &lt;/svg&gt;&lt;/a&gt;
+
+
+                    &lt;a href=&quot;https://telegram.me/AboutNj/&quot; target=&quot;_blank&quot; aria-label=&quot;My Telegram&quot;&gt;&lt;svg class=&quot;SocialHandle&quot;
+                            viewBox=&quot;0 0 50 50&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;
+                            &lt;path
+                                d=&quot;M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z&quot; /&gt;
+                        &lt;/svg&gt;&lt;/a&gt;
+
+
+                    &lt;a href=&quot;#&quot; target=&quot;_blank&quot; aria-label=&quot;My Linkdin&quot;&gt;&lt;svg class=&quot;SocialHandle&quot;
+                            viewBox=&quot;0 0 448 512&quot;&gt;
+                            &lt;path
+                                d=&quot;M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z&quot; /&gt;
+                        &lt;/svg&gt;&lt;/a&gt;
+                    &lt;a href=&quot;/cdn-cgi/l/email-protection#dcff&quot; target=&quot;_blank&quot; aria-label=&quot;My G mail&quot;&gt;&lt;svg id=&quot;GmailLogo&quot;
+                            viewBox=&quot;0 0 512 512&quot;&gt;
+                            &lt;path
+                                d=&quot;M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z&quot; /&gt;
+                        &lt;/svg&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;footer-bottom&quot;&gt;
+                &lt;article&gt;Design &amp; Built by
+                    Orewa Nj &lt;i class=&quot;far fa-copyright&quot;&gt;&lt;/i&gt; 2024
+                &lt;/article&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;!-- footer ends here --&gt;
+    &lt;script data-cfasync=&quot;false&quot; src=&quot;/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+        AOS.init();
+    &lt;/script&gt;
+    &lt;script&gt;
+        function openURL() {
+            var url = &quot;https://telegram.me/AboutNj/&quot;;
+            window.open(url, '_blank');
+        }
+    &lt;/script&gt;
+
+&lt;/html&gt;
